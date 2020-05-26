@@ -1,0 +1,30 @@
+.footer{
+    position: absolute;
+    top: 220rem;
+    left: 0;
+
+    &__list{
+        display: flex;
+        list-style: none;
+        margin-left: 10rem;
+        margin-bottom: 4rem;
+    }
+
+    &__item{
+        font-size: 1.8rem;
+        color: #282350;
+        padding:0 2rem;
+        transition: all .2s;
+        &:hover{
+            color:purple;
+            transform: translateX(2rem);
+            cursor: pointer;
+        }
+    }
+
+    &__copy{
+        margin-left: 60rem;
+        margin-top: .5rem;
+        font-size: 1.3rem;
+    }
+}

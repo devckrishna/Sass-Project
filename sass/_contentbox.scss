@@ -1,0 +1,35 @@
+.container{
+    background-color:red;
+    position: relative;
+    &__model{
+        position: absolute;
+        background-color:#fff;
+        box-shadow: 0 3rem 6rem rgba($color: #000000, $alpha: .45);
+        height: 220rem;
+        margin:0 3.3rem;
+        border-radius: 8px;
+        margin-top: -7rem;
+        width: 96%;
+        margin-bottom: 10rem;
+    }
+
+    &__description{
+        margin: 10rem 40rem;
+    }
+
+    &__heading{
+        display: flex;
+        justify-content: center;
+        font-size: 3.4rem;
+        color: #282350;
+        font-weight:600;
+        letter-spacing: .1rem;
+        margin-bottom:1.7rem ;
+    }
+
+    &__text{
+        text-align: center;
+        font-size: 1.8rem;
+        color: #9f9f9f;
+    }
+}

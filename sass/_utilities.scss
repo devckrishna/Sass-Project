@@ -1,0 +1,16 @@
+.btn{
+    background-color:#B52424;
+    font-size: 2rem;
+    border: none;
+    padding:1.5rem 4rem;
+    margin-top: 2.3rem;
+    color: white;
+    border-radius: 10px;
+    transition: all .2s;
+
+    &:hover{
+        background-color:#CC2525;
+        box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .6);
+        transform: translateX(1rem);
+    }
+}

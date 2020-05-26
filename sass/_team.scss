@@ -1,0 +1,73 @@
+.team{
+    display: grid;
+    grid-template-columns: repeat(4 ,25rem);
+    grid-template-rows: min-content 1fr 1fr;
+    justify-content: center;
+    gap: 5rem;
+    
+    &__heading{
+        margin-top:4rem ;
+        margin-bottom: 1rem;
+        grid-column:1/-1 ;
+        font-size:3.5rem;
+        color: #282350;
+        text-align: center;
+    }
+
+
+    &__icon{
+        height: 1.9rem;
+        width: 1.9rem;
+        margin-top: 3rem;
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+
+        &--1{
+            fill:#b82f67;
+        }
+
+        &--2{
+            fill: #02bde9;
+        }
+
+        &--3{
+            fill:#1d356c;
+        }
+    }
+
+    &__iclayout{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &__img{
+        height: 22rem;
+        width: 22rem;
+        border-radius: 10px;
+        box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .4);
+    }
+
+    &__name{
+        margin-top: 2rem;
+        letter-spacing: .1;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #282350;
+    }
+
+    &__position{
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 1.5rem 0;
+        text-transform: uppercase;
+    }
+
+    &__text{
+        text-align: center;
+        color: #9f9f9f;
+        font-size: 1.5rem;
+    }
+}

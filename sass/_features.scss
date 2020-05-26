@@ -1,0 +1,61 @@
+.features{
+    display: flex;
+    margin: 15rem 20rem;
+
+    &__item--1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 3rem;
+    }
+
+    &__item--2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 3rem;
+    }
+
+    &__item--3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    &__heading{
+        text-align: center;
+        font-size: 2rem;
+        color: #282350;
+        margin-bottom: 1.5rem;
+    }
+
+    &__icon{
+        margin-bottom: 4rem;
+        
+        &--1{
+            height:6.6rem;
+            width: 6.6rem;
+            fill: #2585A9;
+        }
+
+        &--2{
+            height:6.6rem;
+            width: 6.6rem;
+            fill:#5bc041;
+        }
+
+        &--3{
+            height:6.6rem;
+            width: 6.6rem;
+            fill: #ff2f2f;
+        }
+    }
+
+    &__text{
+        text-align: center;
+        font-size: 1.6rem;
+        color: #9f9f9f;
+    }
+}
+

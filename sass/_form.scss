@@ -1,0 +1,45 @@
+.form{
+    margin-top: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__heading{
+        font-size: 3.5rem;
+        color: #282350;
+        margin-bottom: 5rem;
+    }
+
+    &__text{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+        width: 80rem;
+        color: #9f9f9f;
+        text-align: center;
+    }
+
+    &__btn{
+        margin-top: 5rem;
+        &:hover{
+            box-shadow: 0 2rem 4rem rgba($color: #000000, $alpha: .2);
+        }
+    }
+}
+
+input{
+    width: 50rem;
+    border: none;
+    transition: all .2s;
+    padding: 2rem;
+    outline: none;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid burlywood;
+    
+    &:hover,
+    &:focus{
+        outline: none;
+        border-bottom: 2px solid purple;
+        
+    }
+}
